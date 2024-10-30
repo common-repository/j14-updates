@@ -1,0 +1,59 @@
+.j14updates .wrap {
+	font-family: arial, helvetica,sans-serif; 
+	text-align: center;
+	padding: 5px 0 5px 0;
+	color: black;
+	border: 1px #AFAFAF solid;
+	background: url('../images/Maavak_BG.png') #fff bottom repeat-x;
+}
+
+.j14updates .logo {
+	min-height: 38px;
+}
+
+.j14updates .logo a {
+	display: block;
+	visibility: hidden; /* the javascript makes it visible or changes the image */
+	background: url('../images/Maavak_Logo_Trans_BIG.png') no-repeat;
+	margin: 0 auto;
+	width: 175px;
+	height: 66px;
+}
+
+.j14updates .slogan {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.j14updates .bottom {
+	visibility: hidden; /* the javascript makes it visible */
+	margin: 0 auto;
+	overflow: auto;
+	min-width: 54px;
+	max-width: 166px;
+}
+
+.j14updates .button {
+	display: block;
+	float: right;
+	width: 54px;
+	height: 31px;
+	background: url('../images/Maavak_Button.png') no-repeat;
+	text-align: center;
+	line-height: 26px;
+	margin-left: 2px;
+}
+
+.j14updates .button.last {
+	margin-left: 0;
+}
+
+.j14updates .button:hover {
+	background-position: -54px 0;
+}
+
+.j14updates a.button, .j14updates a.button:hover, .j14updates a.button:active {
+	text-decoration: none;
+	color: black;
+	outline: none;
+}
